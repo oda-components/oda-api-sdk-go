@@ -31,6 +31,7 @@ Change GIT_USER_ID and GIT_REPO_ID:
 ```bash
 $ sed -i "s/GIT_USER_ID\/GIT_REPO_ID/oda-components\/oda-api-sdk-go/g" tmf*/*/main.go # Replace GIT_USER_ID and GIT_REPO_ID
 $ sed -i "s/GIT_USER_ID\/GIT_REPO_ID/oda-components\/oda-api-sdk-go/g" tmf*/*/go.mod  # Replace GIT_USER_ID and GIT_REPO_ID
+$ sed -i "s/GIT_USER_ID\/GIT_REPO_ID/oda-components\/oda-api-sdk-go/g" tmf*/*/*/*.md  # Replace GIT_USER_ID and GIT_REPO_ID
 $ sed -i '16,17d' tmf*/*/go/api_notification_listeners_client_side.go                 # Delete unused "github.com/gorilla/mux"
 
 ```
