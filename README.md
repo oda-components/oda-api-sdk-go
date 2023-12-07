@@ -41,6 +41,7 @@ $ sed -i '16,17d' tmf*/*/go/api_notification_listeners_client_side.go           
 ## Build TMF 634 server
 ```bash
 $ cd tmf634/server
+$ go mod download github.com/gorilla/mux
 $ go get github.com/oda-components/oda-api-sdk-go/go
 $ go build -o .
 $ go run main.go
