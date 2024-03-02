@@ -14,15 +14,15 @@ Generate a client and server for each ODA Open API.
 ## TMF634
 
 ```bash
-$ openapi-generator-cli generate --generator-name go --output tmf634/client --additional-properties packageName=tmf634client -i https://tmf-open-api-table-documents.s3.eu-west-1.amazonaws.com/OpenApiTable/4.1.0/swagger/TMF634-ResourceCatalog-v4.1.0.swagger.json
-$ openapi-generator-cli generate --generator-name go-server --output tmf634/server --additional-properties packageName=tmf634server -i https://tmf-open-api-table-documents.s3.eu-west-1.amazonaws.com/OpenApiTable/4.1.0/swagger/TMF634-ResourceCatalog-v4.1.0.swagger.json
+$ openapi-generator-cli generate --generator-name go --output tmf634/client --additional-properties packageName=tmf634client -i https://raw.githubusercontent.com/tmforum-apis/TMF634_ResourceCatalog/master/TMF634-ResourceCatalog-v4.1.0.swagger.json
+$ openapi-generator-cli generate --generator-name go-server --output tmf634/server --additional-properties packageName=tmf634server -i https://raw.githubusercontent.com/tmforum-apis/TMF634_ResourceCatalog/master/TMF634-ResourceCatalog-v4.1.0.swagger.json
 ```
 
 ## TMF639
 
 ```bash
-$ openapi-generator-cli generate --generator-name go --output tmf639/client --additional-properties packageName=tmf639client -i https://tmf-open-api-table-documents.s3.eu-west-1.amazonaws.com/OpenApiTable/4.0.0/swagger/TMF639-ResourceInventory-v4.0.0.swagger.json
-$ openapi-generator-cli generate --generator-name go-server --output tmf639/server --additional-properties packageName=tmf639server -i https://tmf-open-api-table-documents.s3.eu-west-1.amazonaws.com/OpenApiTable/4.0.0/swagger/TMF639-ResourceInventory-v4.0.0.swagger.json
+$ openapi-generator-cli generate --generator-name go --output tmf639/client --additional-properties packageName=tmf639client -i https://raw.githubusercontent.com/tmforum-apis/TMF639_ResourceInventory/master/TMF639-ResourceInventory-v4.0.0.swagger.json
+$ openapi-generator-cli generate --generator-name go-server --output tmf639/server --additional-properties packageName=tmf639server -i https://raw.githubusercontent.com/tmforum-apis/TMF639_ResourceInventory/master/TMF639-ResourceInventory-v4.0.0.swagger.json
 ```
 
 ## Replacement
